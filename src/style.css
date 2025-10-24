@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
 body {
   margin: 0;
   padding: 0;
@@ -25,6 +32,7 @@ p {
 .slider img {
   width: 100%;
   height: 700px;
+  -o-object-fit: cover;
   object-fit: cover;
 }
 
@@ -45,8 +53,12 @@ p {
 }
 
 .slick-prev {
+  -webkit-transform: translateX(-100px);
+  -ms-transform: translateX(-100px);
   transform: translateX(-100px);
 }
 .slick-next {
+  -webkit-transform: translateX(70px);
+  -ms-transform: translateX(70px);
   transform: translateX(70px);
 }
