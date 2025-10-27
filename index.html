@@ -5,7 +5,7 @@
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>slider</title>
-    <link rel="stylesheet" href="src/reset.css" />
+    <link rel="stylesheet" href="./src/reset.css" />
     <link
       rel="stylesheet"
       type="text/css"
@@ -16,7 +16,7 @@
       type="text/css"
       href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"
     />
-    <link rel="stylesheet" href="src/style.css" />
+    <link rel="stylesheet" href="./src/style.css" />
   </head>
   <body>
     <header>
@@ -25,12 +25,13 @@
     <main>
       <p>jQueryのプラグイン「Slick」を使用しました</p>
       <p>PCはwindowsを使用しています</p>
+      <p>ローカルファイルでもVite環境でも動かせるようにパスを修正しました</p>
       <p>画像素材：photoAC</p>
       <div class="slider">
-        <div><img src="public/spring.jpg" alt="1枚目" /></div>
-        <div><img src="public/summer.jpg" alt="2枚目" /></div>
-        <div><img src="public/autumn.jpg" alt="3枚目" /></div>
-        <div><img src="public/winter.jpg" alt="4枚目" /></div>
+        <div><img src="./src/images/spring.jpg" alt="1枚目" /></div>
+        <div><img src="./src/images/summer.jpg" alt="2枚目" /></div>
+        <div><img src="./src/images/autumn.jpg" alt="3枚目" /></div>
+        <div><img src="./src/images/winter.jpg" alt="4枚目" /></div>
       </div>
     </main>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
@@ -38,6 +39,6 @@
       type="text/javascript"
       src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
     ></script>
-    <script src="/src/main.js"></script>
+    <script src="./src/main.js"></script>
   </body>
 </html>
